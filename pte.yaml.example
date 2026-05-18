@@ -1,0 +1,5 @@
+# Copy to pte.yaml (gitignored) or use environment variables.
+email: you@example.com
+password: your-password
+user_agent: ""
+base_url: https://app.plantoeat.com
