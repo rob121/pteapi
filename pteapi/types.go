@@ -9,7 +9,7 @@ type RecipeSummary struct {
 	CourseTitle         string    `json:"course_title"`
 	TotalTime           float64   `json:"total_time"`
 	PhotoURL            string    `json:"photo_url"`
-	Rating              *float64  `json:"rating"`
+	Rating              Rating    `json:"rating"`
 	Owned               bool      `json:"owned"`
 	Queued              bool      `json:"queued"`
 	Active              bool      `json:"active"`
